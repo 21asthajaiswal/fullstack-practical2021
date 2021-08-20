@@ -5,7 +5,7 @@ h1 {
     border-radius: 1em;
     font-family: sans-serif;
     color: grey;
-    background-color: yellow;
+    background-color: rgb(233, 233, 222);
   }
   table,th,td {
     border: 2px solid black;
