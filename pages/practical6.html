@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 6</title>
+    <link rel="stylesheet" href="../css/stylepractical6.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        #container{
+            display: inline-flex;
+        }
+        body{
+            background-color: rgb(231, 228, 228);
+        }
+        .box{
+            width: 300px;
+            height: 400px; ;
+            background-color: white;
+            overflow: hidden;
+            border: 2px ;
+            margin-bottom: 10px;
+            text-align: justify;
+            padding: 20px;
+            margin-right: 20px;
+            border-radius: 20px;
+        }
+        .box img{
+            width: 100%;
+            height: 150px;
+            border-radius: 20px;
+        }
+        .box h2{
+           text-align: center; 
+           margin: 10px;
+        }
+        .mybutton{
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            font-family: arial;
+            background-color: red;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+        .mybutton:hover{
+            background-color: blue;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1 style="color: white;">PRACTICAL-6: CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES</h1><br><br>
+    <div id="container">
+    <div class="box" id="box1">
+        <div class="image">
+            <img src="../image/practical6A.png" alt="">
+        </div>
+    <h2>Introduction to HTML</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi est porro rerum ipsum adipisci
+         obcaecati tempore corporis, architecto quam velit temporibus, voluptas facere magnam, repellat 
+         reiciendis! Delectus iusto .
+    </p>
+    <div class="image" style="text-align: center;">
+    <a href="../image/HTML.PNG" class="mybutton">Read More</a>
+    </div>
+</div>
+<div class="box" id="box2">
+    <div class="image">
+        <img src="../image/practical6B.jpg" alt="">
+    </div>
+    <h2>Introduction to CSS</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, dolor id eveniet autem sunt
+         quos alias nobis nesciunt! Enim minus aut consequatur perspiciatis dolorem nam pariatur cumque 
+         inventore doloremque nihil?
+    </p>
+    <div class="image" style="text-align: center;">
+        <a href="../image/css.PNG" class="mybutton">Read More</a>
+        </div>
+</div>
+<div class="box" id="box3">
+    <div class="image">
+        <img src="../image/practical6C.jpg" alt="">
+    </div>
+    <h2>Introduction to JS</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore atque officia, odio fuga voluptatum 
+        adipisci et saepe officiis nemo? Dolorum nemo, molestiae recusandae odit modi quia nisi quae sed quam.
+    </p>
+    <div class="image" style="text-align: center;">
+        <a href="../image/js.PNG" class="mybutton">Read More</a>
+        </div>
+</div>
+<div class="box" id="box4">
+    <div class="image">
+        <img src="../image/practical6D.jpg" alt="">
+    </div>
+    <h2>Introduction Bootstrap</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam totam enim impedit rem incidunt
+         perferendis consectetur quis iste quas, optio nobis deserunt soluta quod, corrupti esse. Corporis
+          repellat amet ex.
+    </p>
+    <div class="image" style="text-align: center;">
+        <a href="../image/B.PNG" class="mybutton">Read More</a>
+        </div>
+</div>
+</div>
+</body>
+</html>
