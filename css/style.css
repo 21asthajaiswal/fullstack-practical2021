@@ -22,4 +22,10 @@ h1 {
       background-color: thistle;
 
   }
+  .footer {
+    border-color: inherit;
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+  }
   
